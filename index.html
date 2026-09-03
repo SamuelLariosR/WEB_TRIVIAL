@@ -3,11 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <h1>Hello, World!</h1>
-    <h1>Welcome to My Website</h1>
+    <title>Trivial World</title>
+    <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
+    <header>
+        <h1>Welcome to Trivial World</h1>
+    </header>
     
+    <div class="question-container"> 
+        <h2 id="question">What is the capital of France?</h2>
+    </div>
+
+    <div class="options">
+        <button class="option">Madrid</button>
+        <button class="option">Paris</button>
+        <button class="option">Berlin</button>
+        <button class="option">Rome</button>
+    </div>
+
+    <div class="question2-container">
+        <h2 id="question2">What is the capital of Germany?</h2>
+    </div>
+
+    <div class="options2">
+        <button class="option2">Madrid</button>
+        <button class="option2">Paris</button>
+        <button class="option2">Berlin</button>
+        <button class="option2">Rome</button>
+    </div>
+
+
+    <div class="score">
+        <p>Score: <span id="score">0</span></p>
+    </div>
+
+    <div>
+        <button id="next-button">Next Question</button>
+    </div>
 </body>
 </html>
